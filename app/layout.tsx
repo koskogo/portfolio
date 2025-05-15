@@ -17,8 +17,8 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        <body className={inter.className}>
-            <nav className="bg-white shadow-sm">
+        <body className={`${inter.className} min-h-screen flex flex-col`}>
+            <nav className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
                 <div className="container mx-auto">
                     <div className="flex justify-between items-center h-16">
                         <Link href="/" className="text-xl font-bold text-gray-800">
@@ -46,12 +46,12 @@ export default function RootLayout({
                     </div>
                 </div>
             </nav>
-            <main>{children}</main>
-            <footer className="bg-gray-50 border-t">
-                <div className="container mx-auto py-8">
+            <main className="flex-grow pt-16 pb-32">{children}</main>
+            <footer className="fixed bottom-0 left-0 right-0 bg-gray-50 border-t z-40">
+                <div className="container mx-auto py-4">
                     <div className="flex flex-col md:flex-row justify-between items-center">
-                        <p className="text-gray-600">© 2024 Your Portfolio. All rights reserved.</p>
-                        <div className="flex space-x-6 mt-4 md:mt-0">
+                        <p className="text-gray-600">© 2024 Theodor Schneider. All rights reserved.</p>
+                        <div className="flex space-x-6 mt-2 md:mt-0">
                             <Link href="/impressum" className="text-gray-600 hover:text-gray-900">
                                 Impressum
                             </Link>

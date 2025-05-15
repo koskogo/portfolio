@@ -24,21 +24,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* CTA Section */}
-      <section className="section bg-gray-50">
-        <div className="container">
-          <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-4">Let&apos;s Work Together</h2>
-            <p className="text-gray-600 mb-8">
-              Have a project in mind? I&apos;d love to hear about it. Let&apos;s create something amazing together.
-            </p>
-            <Link href="/contact" className="btn-primary">
-              Get in Touch
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
