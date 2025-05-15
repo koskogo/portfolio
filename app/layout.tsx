@@ -6,7 +6,7 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-    title: 'Your Portfolio',
+    title: 'Theodor Schneider',
     description: 'Welcome to my professional portfolio showcasing my work and skills',
 }
 
