@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Link from 'next/link'
+import MobileMenu from './components/MobileMenu'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,21 +29,11 @@ export default function RootLayout({
                             <Link href="/" className="text-gray-600 hover:text-gray-900">
                                 Home
                             </Link>
-                            <Link href="/projects" className="text-gray-600 hover:text-gray-900">
-                                Projects
-                            </Link>
-                            <Link href="/about" className="text-gray-600 hover:text-gray-900">
-                                About
-                            </Link>
                             <Link href="/contact" className="text-gray-600 hover:text-gray-900">
                                 Contact
                             </Link>
                         </div>
-                        <button className="md:hidden">
-                            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                            </svg>
-                        </button>
+                        <MobileMenu />
                     </div>
                 </div>
             </nav>
