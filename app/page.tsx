@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen" style={{ overflow: 'hidden', height: '100vh' }}>
       {/* Hero Section */}
       <section className="section bg-gradient-to-b from-white to-gray-50">
         <div className="container">
