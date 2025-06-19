@@ -39,11 +39,6 @@ export default function Home() {
               </div>
             </div>
             {/* End Profile Section */}
-            <div className="flex justify-center gap-4 mt-12">
-              <Link href="/contact" className="px-6 py-3 bg-white text-gray-800 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors duration-200">
-                Contact Me
-              </Link>
-            </div>
           </div>
           {/* Projects Section - now full width and centered in viewport */}
           <div className="w-full flex flex-col items-center justify-center mt-16">
@@ -104,6 +99,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+          {/* Contact Me Button moved below Projects */}
+          <div className="flex justify-center gap-4 mt-12">
+            <Link href="/contact" className="px-6 py-3 bg-white text-gray-800 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors duration-200">
+              Contact Me
+            </Link>
           </div>
         </div>
       </section>
