@@ -53,10 +53,11 @@ export default function Home() {
                 <div className="flex-1 text-left">
                   <h3 className="text-2xl font-bold mb-2">Task Planner</h3>
                   <p className="text-lg text-gray-600 mb-4">A productivity app to organize, prioritize, and track your daily tasks efficiently.</p>
-                  <div className="flex gap-4">
+                  <div className="flex gap-4 mb-4">
                     <span className="text-yellow-500"><SiJavascript size={32} title="JavaScript" /></span>
                     <span className="text-cyan-500"><FaReact size={32} title="React" /></span>
                   </div>
+                  <Link href="/projekte/TaskPlanner" className="inline-block mt-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">Mehr erfahren</Link>
                 </div>
               </div>
               {/* Project Card 2 */}
@@ -67,9 +68,10 @@ export default function Home() {
                 <div className="flex-1 text-left">
                   <h3 className="text-2xl font-bold mb-2">Weather App</h3>
                   <p className="text-lg text-gray-600 mb-4">A real-time weather application providing forecasts and current conditions for any location.</p>
-                  <div className="flex gap-4">
+                  <div className="flex gap-4 mb-4">
                     <span className="text-green-500"><SiPython size={32} title="Python" /></span>
                   </div>
+                  <Link href="/projekte/WeatherApp" className="inline-block mt-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">Mehr erfahren</Link>
                 </div>
               </div>
               {/* Project Card 3 */}
@@ -80,10 +82,11 @@ export default function Home() {
                 <div className="flex-1 text-left">
                   <h3 className="text-2xl font-bold mb-2">Recipe Finder</h3>
                   <p className="text-lg text-gray-600 mb-4">An app to search and discover recipes based on ingredients you have at home.</p>
-                  <div className="flex gap-4">
+                  <div className="flex gap-4 mb-4">
                     <span className="text-cyan-500"><FaReact size={32} title="React" /></span>
                     <span className="text-gray-800"><SiNextdotjs size={32} title="Next.js" /></span>
                   </div>
+                  <Link href="/projekte/RecipeFinder" className="inline-block mt-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">Mehr erfahren</Link>
                 </div>
               </div>
               {/* Project Card 4 */}
@@ -94,10 +97,11 @@ export default function Home() {
                 <div className="flex-1 text-left">
                   <h3 className="text-2xl font-bold mb-2">Portfolio Website</h3>
                   <p className="text-lg text-gray-600 mb-4">A personal portfolio website to showcase projects, skills, and contact information.</p>
-                  <div className="flex gap-4">
+                  <div className="flex gap-4 mb-4">
                     <span className="text-yellow-500"><SiJavascript size={32} title="JavaScript" /></span>
                     <span className="text-gray-800"><SiNextdotjs size={32} title="Next.js" /></span>
                   </div>
+                  <Link href="/projekte/PortfolioWebsite" className="inline-block mt-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">Mehr erfahren</Link>
                 </div>
               </div>
             </div>
