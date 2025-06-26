@@ -30,13 +30,13 @@ export default function Home() {
               {/* Profile Picture */}
               <div className="flex-shrink-0 md:order-2 md:w-1/3 flex justify-center md:justify-end w-full">
                 <div className="w-[200px] h-[200px] rounded-full overflow-hidden aspect-square border-4 border-gray-200 bg-white shadow-md">
-                  <Image
+                <Image
                     src="/portrait.jpg"
                     alt="Portrait von Theodor Schneider"
-                    width={200}
-                    height={200}
+                  width={200}
+                  height={200}
                     className="object-cover w-full h-full"
-                  />
+                />
                 </div>
               </div>
             </div>
