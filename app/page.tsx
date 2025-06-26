@@ -46,11 +46,11 @@ export default function Home() {
               {/* Project Card 1 */}
               <div className="bg-white rounded-2xl shadow-lg p-10 flex flex-col md:flex-row items-center gap-8 min-h-[220px]">
                 <div className="w-40 h-40 bg-gray-100 rounded-lg flex items-center justify-center text-2xl">
-                  <span className="text-gray-400">Img</span>
+                  <Image src="/window.svg" alt="Task Planner" width={100} height={100} />
                 </div>
                 <div className="flex-1 text-left">
-                  <h3 className="text-2xl font-bold mb-2">Project One</h3>
-                  <p className="text-lg text-gray-600 mb-4">A short description of the first project goes here.</p>
+                  <h3 className="text-2xl font-bold mb-2">Task Planner</h3>
+                  <p className="text-lg text-gray-600 mb-4">A productivity app to organize, prioritize, and track your daily tasks efficiently.</p>
                   <div className="flex gap-4">
                     <span className="text-yellow-500"><SiJavascript size={32} title="JavaScript" /></span>
                     <span className="text-cyan-500"><FaReact size={32} title="React" /></span>
@@ -60,11 +60,11 @@ export default function Home() {
               {/* Project Card 2 */}
               <div className="bg-white rounded-2xl shadow-lg p-10 flex flex-col md:flex-row items-center gap-8 min-h-[220px]">
                 <div className="w-40 h-40 bg-gray-100 rounded-lg flex items-center justify-center text-2xl">
-                  <span className="text-gray-400">Img</span>
+                  <Image src="/globe.svg" alt="Weather App" width={100} height={100} />
                 </div>
                 <div className="flex-1 text-left">
-                  <h3 className="text-2xl font-bold mb-2">Project Two</h3>
-                  <p className="text-lg text-gray-600 mb-4">A short description of the second project goes here.</p>
+                  <h3 className="text-2xl font-bold mb-2">Weather App</h3>
+                  <p className="text-lg text-gray-600 mb-4">A real-time weather application providing forecasts and current conditions for any location.</p>
                   <div className="flex gap-4">
                     <span className="text-green-500"><SiPython size={32} title="Python" /></span>
                   </div>
@@ -73,11 +73,11 @@ export default function Home() {
               {/* Project Card 3 */}
               <div className="bg-white rounded-2xl shadow-lg p-10 flex flex-col md:flex-row items-center gap-8 min-h-[220px]">
                 <div className="w-40 h-40 bg-gray-100 rounded-lg flex items-center justify-center text-2xl">
-                  <span className="text-gray-400">Img</span>
+                  <Image src="/file.svg" alt="Recipe Finder" width={100} height={100} />
                 </div>
                 <div className="flex-1 text-left">
-                  <h3 className="text-2xl font-bold mb-2">Project Three</h3>
-                  <p className="text-lg text-gray-600 mb-4">A short description of the third project goes here.</p>
+                  <h3 className="text-2xl font-bold mb-2">Recipe Finder</h3>
+                  <p className="text-lg text-gray-600 mb-4">An app to search and discover recipes based on ingredients you have at home.</p>
                   <div className="flex gap-4">
                     <span className="text-cyan-500"><FaReact size={32} title="React" /></span>
                     <span className="text-gray-800"><SiNextdotjs size={32} title="Next.js" /></span>
@@ -87,11 +87,11 @@ export default function Home() {
               {/* Project Card 4 */}
               <div className="bg-white rounded-2xl shadow-lg p-10 flex flex-col md:flex-row items-center gap-8 min-h-[220px]">
                 <div className="w-40 h-40 bg-gray-100 rounded-lg flex items-center justify-center text-2xl">
-                  <span className="text-gray-400">Img</span>
+                  <Image src="/next.svg" alt="Portfolio Website" width={100} height={100} />
                 </div>
                 <div className="flex-1 text-left">
-                  <h3 className="text-2xl font-bold mb-2">Project Four</h3>
-                  <p className="text-lg text-gray-600 mb-4">A short description of the fourth project goes here.</p>
+                  <h3 className="text-2xl font-bold mb-2">Portfolio Website</h3>
+                  <p className="text-lg text-gray-600 mb-4">A personal portfolio website to showcase projects, skills, and contact information.</p>
                   <div className="flex gap-4">
                     <span className="text-yellow-500"><SiJavascript size={32} title="JavaScript" /></span>
                     <span className="text-gray-800"><SiNextdotjs size={32} title="Next.js" /></span>
